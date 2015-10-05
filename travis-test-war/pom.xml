@@ -36,6 +36,7 @@
                   <goals>
                      <goal>exec</goal>
                   </goals>
+                  <phase>compile</phase>
                   <configuration>
                      <executable>npm</executable>
                      <arguments>
