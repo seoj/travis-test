@@ -33,12 +33,26 @@
             <version>1.4.0</version>
             <executions>
                <execution>
+                  <id>npm_version</id>
                   <goals>
                      <goal>exec</goal>
                   </goals>
                   <phase>compile</phase>
                   <configuration>
                      <executable>npm</executable>
+                     <arguments>
+                        <argument>--version</argument>
+                     </arguments>
+                  </configuration>
+               </execution>
+               <execution>
+                  <id>node_version</id>
+                  <goals>
+                     <goal>exec</goal>
+                  </goals>
+                  <phase>compile</phase>
+                  <configuration>
+                     <executable>node</executable>
                      <arguments>
                         <argument>--version</argument>
                      </arguments>
