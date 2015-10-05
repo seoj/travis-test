@@ -2,5 +2,4 @@ jdk:
   - oraclejdk8
 node_js:
   - stable
-install:
-  - mvn install
+language: java
