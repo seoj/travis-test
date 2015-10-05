@@ -3,3 +3,5 @@ jdk:
 node_js:
   - stable
 language: java
+install:
+  - mvn install
