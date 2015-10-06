@@ -3,4 +3,4 @@ jdk:
 node_js:
   - stable
 script:
-  - mvn clean install -q
+  - mvn clean install -q > /dev/null
